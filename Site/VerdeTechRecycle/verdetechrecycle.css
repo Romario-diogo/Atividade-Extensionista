@@ -1,85 +1,118 @@
 body{
-    background-color:#7feaca;
     margin: 0;
-    padding: 0;
-    /* display: grid; */
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(auto, 1fr);
-    grid-gap: 10px;
-    grid-template-areas: 
-        "header header header header"
-        "main   main     main  aside"
-        "main   main     main  aside"
-        "main   main     main  aside"
-        "footer footer footer footer"
-    ;
-}
-
-header{
-    grid-area: header;
-}
-main{
-    grid-area: main;
-}
-aside{
-    grid-area: aside;
-}
-footer{
-    grid-area: footer;
-}
-header{
-    background-color: #70d7da;
-    padding: 20px;
-    box-shadow: 1px 3px 8px black;
+    background-color:#4C8D00 ;
 
 }
 header > h1{
-    text-align: left;
+    margin-top: 6px;
+    padding: 5px;
+    background-color: #F0F8E9;   
+    color: #679B00;
+    height:20px;
+    margin-bottom: 0px;
+    font-size: 30px;
 }
-header > nav{
+header, nav{
+    background-color: #F0F8E9;
+}
+
+#lista-top > li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+    padding-bottom: 9px;
+}
+#lista-top > li:last-child{
+    margin-right: 5;
+}
+#lista-top , li > a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #679B00;
     text-align: right;
 }
-nav ul li{
-    display: inline;
-    padding-right: 15px;
-    font-size: 18px;
-    
+#lista-top , li > a:hover{
+    color: green;
 }
-/* links */
-li ,a{
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-}
-
 /* Conteudo */
 
-main{
-    margin-left: 10px;
-    margin-right: 50px;
-    padding-right: 30px;
-    display: flex;
-    justify-content: center;
+#conteudo01, #conteudo2{
+    margin: auto;
+    width: 800px;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color:   #F0F8E9;
+    padding: 10px;
 }
 .imgs{
-    width: 340px;
-    height: 200px;
-    border-radius: 5px;
-    
-    
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px
 }
-#sustentavel,#solidario{
-    margin-right: 15px;
-    margin-top: 30px;
-    border: solid 2px black;
-    width:350px;
-    height: 400px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
-    overflow: hidden;
-}
-#solidario:hover, #sustentavel:hover {
-    overflow: auto;
 
+/* Recicling */
+
+#section-recycling{
+    background-color: white;
+    height: 189px;
+    box-shadow: 3px 4px 10px #7c9251;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+#recycling > li{
+    display: inline-block;
+    margin-right: 30px;
+}
+li > img{
+    width: 100px;
+    height: 100px;
+}
+#recycling .pcor{
+    color: #33CCCC; 
+    font-weight: bold;
+}
+
+/* Location */
+#pontos-de-reciclagem{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: #F0F8E9;
+    text-align: center;
+}
+#pontos-de-reciclagem > img{
+    width: 200px;
+}
+#Formulario{
+    display: block;
+}
+label{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+#encontre{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#busque-input{
+    width:25%;
+    height: 30px;
+    border-radius: 4px;
+    border: 0.5px solid black;
+    margin-right: 5px;
+}
+#botao{
+    height: 33px;
+    border-radius: 4px;
+    width: 70px;
+    color: #F0F8E9;
+    background-color: #679B00;
+    border: 0px;
 }
