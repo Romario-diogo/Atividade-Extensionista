@@ -116,3 +116,47 @@ label{
     background-color: #679B00;
     border: 0px;
 }
+
+/* Footer */
+footer{
+    width: auto;
+    height: 120px;
+    padding: 10px;
+    background-color: #F0F8E9;
+}
+footer a{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    position: relative;
+}
+footer a:hover{
+    /* text-decoration: underline; */
+    color: green;
+}
+
+
+.Emojis{
+    width: 50px;
+    height: 50px;
+}
+/* Assinatura */
+#footer {
+    height: 50px;
+    width: 100%;
+    /* color: #08403daa; */
+    clear: both;
+    position: relative;
+  }
+#name {
+    font-family: 'Great Vibes', cursive;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%; 
+}   
