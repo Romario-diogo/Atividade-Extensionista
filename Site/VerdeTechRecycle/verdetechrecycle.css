@@ -1,25 +1,80 @@
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 body{
     margin: 0;
-    background-color:#4C8D00 ;
+    background-color:#95A867 ;
 
 }
-header > h1{
-    margin-top: 6px;
-    padding: 5px;
-    background-color: #F0F8E9;   
-    color: #679B00;
-    height:20px;
-    margin-bottom: 0px;
-    font-size: 30px;
+/* Barra top */
+#barra-top{
+    background-color: #95A867;
+    height: 70px;
 }
-header, nav{
-    background-color: #F0F8E9;
+.Emojis-top{
+    width: 45px;
+    left: 50px;
+    margin-left: 40px;
+    margin-top: 12px;
+    margin-right: 40px;
+}
+.Emoji-ps{
+    text-align: right;
+}
+a{
+    text-decoration: none;
 }
 
+/* Fundo do Header */
+#capa{
+    background-image: url(img/tartaruga.fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+#capa::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 602px;
+    margin-top: 70px;
+    background: rgba(0, 0, 0, 0.5) ;
+}
+#section-escrita{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 602px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* Escrita / Capa */
+#escrita{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 60px;
+
+}
+#lista-top{
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+}
 #lista-top > li{
     display: inline-block;
-    margin-right: 20px;
-    font-size: 15px;
+    margin-right: 65px;
+    font-size: 26px;
     padding-bottom: 9px;
 }
 #lista-top > li:last-child{
@@ -28,11 +83,73 @@ header, nav{
 #lista-top , li > a{
     list-style-type: none;
     text-decoration: none;
-    color: #679B00;
+    color: white;
     text-align: right;
 }
 #lista-top , li > a:hover{
-    color: green;
+    color: #aaf611;
+    text-decoration: underline;
+} 
+/* Animação */
+
+#escrita{
+    font-weight: 300;
+}
+
+#escrita span{
+    position: relative;
+}
+
+#escrita span::before{
+    content: "";
+    color: #d3e0c3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: texto 20s infinite;
+}
+
+@keyframes texto{
+    0%,20%{
+      content: "Verde Tech Recycle";  
+    }
+    21%, 40%{
+        content: "Verde Tech Recycle";
+    } 
+    41%, 60%{
+        content: "Verde Tech Recycle";
+    }
+    61%, 80%{
+        content: "Verde Tech Recycles";
+    }
+    81%, 100%{
+        content: "Verde Tech Recycle";
+    }
+}
+
+#escrita span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid green;
+    right: -10px;
+    animation: cursor 0.8s infinite, digita 20s steps(15) infinite;
+    width: calc(100% + 13px);
+    background-color:#95A867 ;
+}
+
+@keyframes cursor {
+    0%{
+        border-left: 2px solid rgb(0, 0, 0);
+    }
+    
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%,95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 13px);
+    }
 }
 /* Conteudo */
 
