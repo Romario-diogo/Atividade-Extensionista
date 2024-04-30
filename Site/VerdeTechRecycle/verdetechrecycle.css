@@ -15,19 +15,6 @@ body{
     background-color: #95A867;
     height: 70px;
 }
-.Emojis-top{
-    width: 45px;
-    left: 50px;
-    margin-left: 40px;
-    margin-top: 12px;
-    margin-right: 40px;
-}
-.Emoji-ps{
-    text-align: right;
-}
-a{
-    text-decoration: none;
-}
 
 /* Fundo do Header */
 #capa{
@@ -36,6 +23,7 @@ a{
     background-position: center center;
     background-size: cover;
     height: 600px;
+    margin-bottom: 10px;
 }
 #capa::after{
     content: '';
@@ -43,7 +31,7 @@ a{
     top: 0;
     left: 0;
     width: 100%;
-    height: 602px;
+    height: 600px;
     margin-top: 70px;
     background: rgba(0, 0, 0, 0.5) ;
 }
@@ -64,7 +52,6 @@ a{
     top: 5px;
     left: 10px;
     font-size: 60px;
-
 }
 #lista-top{
     position: absolute;
@@ -73,18 +60,20 @@ a{
 }
 #lista-top > li{
     display: inline-block;
-    margin-right: 65px;
-    font-size: 26px;
+    margin-right: 30px;
+    font-size: 20px;
     padding-bottom: 9px;
 }
 #lista-top > li:last-child{
-    margin-right: 5;
+    margin-right: 8;
 }
 #lista-top , li > a{
     list-style-type: none;
     text-decoration: none;
     color: white;
     text-align: right;
+    top: 90px;
+    text-decoration: none;
 }
 #lista-top , li > a:hover{
     color: #aaf611;
@@ -109,19 +98,19 @@ a{
 
 @keyframes texto{
     0%,20%{
-      content: "Verde Tech Recycle";  
+      content: "Verde Tech Recycle .";  
     }
     21%, 40%{
-        content: "Verde Tech Recycle";
+        content: "Verde Tech Recycle ..";
     } 
     41%, 60%{
-        content: "Verde Tech Recycle";
+        content: "Verde Tech Recycle ...";
     }
     61%, 80%{
-        content: "Verde Tech Recycles";
+        content: "Verde Tech Recycle ....";
     }
     81%, 100%{
-        content: "Verde Tech Recycle";
+        content: "Verde Tech Recycle .....";
     }
 }
 
@@ -151,16 +140,74 @@ a{
         width: calc(100% + 13px);
     }
 }
-/* Conteudo */
+/* Lixo */
+#lixo{
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width:1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 0.5rem;
+}
+#lixo > div > img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+/* Conteudo 1*/
+#texto-cont > p , #conteudo01 div:nth-child(3){
+    margin: 0;
+    padding: 0;
+    padding-right: 15px;
+}
+
+#conteudo01{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 550px;
+
+}
+#img-top{
+    grid-column: 3;
+    grid-row: 1;
+}
+#texto-cont{
+    grid-column: 1 /3;
+    grid-row: 1 / auto; 
+    gap: 0rem;
+}
+#conteudo01 div:nth-child(3){
+    grid-column: 1/4;
+    gap: 0rem;
+}
+
+
+/* Conteudo 2 */
+ 
+#conteudo2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+#conteudo2 div:nth-child(3){
+    grid-column: 1/3;
+}
+.fonte-p{
+    font-size: 19px;
+}
 
 #conteudo01, #conteudo2{
     margin: auto;
     width: 800px;
-    margin-bottom: 0px;
-    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
     background-color:   #F0F8E9;
     padding: 10px;
 }
+
 .imgs{
     width: 300px;
     margin-top: 5px;
@@ -180,7 +227,7 @@ a{
 }
 #recycling > li{
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 li > img{
     width: 100px;
@@ -244,21 +291,15 @@ footer{
 footer a{
     display: inline-block;
     padding-top: 30px;
-    padding-left: 50px;
+    padding-right: 35px;
     text-decoration: none;
     list-style-type: none;
     color: black;
     font-size: 20px;
     font-weight: bold;
-    float: left;
+    float: right;
     position: relative;
 }
-footer a:hover{
-    /* text-decoration: underline; */
-    color: green;
-}
-
-
 .Emojis{
     width: 50px;
     height: 50px;
