@@ -143,6 +143,7 @@ body{
 /* Lixo */
 #lixo{
     justify-content: center;
+    margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
     width:1000px;
@@ -155,6 +156,7 @@ body{
     width: 300px;
     height: 200px;
     border-radius: 10px;
+    
 }
 /* Conteudo 1*/
 #texto-cont > p , #conteudo01 div:nth-child(3){
