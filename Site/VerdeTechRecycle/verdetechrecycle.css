@@ -7,12 +7,12 @@
 
 body{
     margin: 0;
-    background-color:#95A867 ;
+    background-color:#87d1d1a8 ;
 
 }
 /* Barra top */
 #barra-top{
-    background-color: #95A867;
+    background-color: #87d1d1 ;
     height: 70px;
 }
 
@@ -122,7 +122,7 @@ body{
     right: -10px;
     animation: cursor 0.8s infinite, digita 20s steps(15) infinite;
     width: calc(100% + 13px);
-    background-color:#95A867 ;
+    background-color:#87d1d1 ;
 }
 
 @keyframes cursor {
