@@ -1,6 +1,18 @@
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     body{
         background-color: green;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
     }
-    
+
+    header{
+        grid-area: "header";
+    }
+    main{
+        grid-area: main;
+    }
+    #section-recycling{
+        grid-area: "section01";
+    }
 }
