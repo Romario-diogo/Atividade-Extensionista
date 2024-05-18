@@ -244,6 +244,14 @@ li > img{
     font-weight: bold;
 }
 
+#recycling > li:first-child {
+    margin-left: 0;
+    
+}
+#recycling > li:last-child {
+    margin-right:0;
+}
+
 /* Location */
 #pontos-de-reciclagem{
     width: auto;

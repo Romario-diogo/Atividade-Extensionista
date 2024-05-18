@@ -1,4 +1,4 @@
-@media (min-width:862px) and (max-width:1014px) {
+@media (min-width:374px) and (max-width:1014px) {
     html, body {
         overflow-x: hidden;
     }
@@ -19,6 +19,13 @@
         color: aqua;
         text-decoration: none;
     }
+    #recycling > li:first-child {
+        margin-left: 0;
+        
+    }
+    #recycling > li:last-child {
+        margin-right:0;
+    }
 }
 
 @media (min-width:921px) and (max-width: 1014px) {
@@ -35,13 +42,7 @@
     #recycling > li{
         margin-right: 30px;
     }
-    #recycling > li:first-child {
-        margin-left: 0;
-        
-    }
-    #recycling > li:last-child {
-        margin-right:0;
-    }
+    
     
     #lixo{
         align-items: center;
