@@ -1,13 +1,4 @@
 
-// window.onload = function() {
-//     const divs = document.querySelectorAll('#sustentavel, #solidario');
-//     divs.forEach(div => {
-//         div.addEventListener('mouseleave', () => {
-//             div.scrollTop = 0; // Volta o conteúdo para o início
-//             div.style.overflow = 'hidden'; // Esconde a barra de rolagem
-//         });
-//     });
-// }
 window.onload = function() {
     const divs = document.querySelectorAll('#sustentavel, #solidario');
 
