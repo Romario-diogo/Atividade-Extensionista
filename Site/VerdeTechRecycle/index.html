@@ -159,5 +159,15 @@
             </div>
     </footer>
     <script src="verdetechrecycle.js"></script>
+    <script src="assets/scripts/app.js"></script>
+    <script>
+        document.getElementById("botao").addEventListener("click", function() {
+            // Obter o valor do endereço digitado pelo usuário
+            var endereco = document.getElementById("busque-input").value;
+            
+            // Redirecionar para a página do mapa com o endereço como parâmetro de consulta na URL
+            window.location.href = "mapa.html" + encodeURIComponent(endereco);
+        });
+    </script>
 </body>
 </html>

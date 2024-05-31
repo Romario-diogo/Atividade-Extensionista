@@ -1,0 +1,622 @@
+[
+    {
+        "ecoponto": "Viaduto Engenheiro Alberto Badra",
+        "endereco": "Avenida Aricanduva, nº 200 - Praça Lúcia Mekhitarian – Bairro: Aricanduva (baixo do Viaduto Engenheiro Alberto Badra)",
+        "cep": "03501-010"
+    },
+    {
+        "ecoponto": "Astarte",
+        "endereco": "Rua Astarte, nº 500 – Bairro: Vila Carrão",
+        "cep": "03446-090"
+    },
+    {
+        "ecoponto": "Nova York",
+        "endereco": "Rua Amélia Vanso Magnoli, nº 480 – Bairro: Conjunto Habitacional Barreira Grande",
+        "cep": "03907-010"
+    },
+    {
+        "ecoponto": "Aricanduva I",
+        "endereco": "Rua Professor Alzira de Oliveira Gilioli, nº 400 – Bairro: Jardim Nice",
+        "cep": "03905-090"
+    },
+    {
+        "ecoponto": "Jardim Maria do Carmo",
+        "endereco": "Rua Caminho do Engenho, nº 800 – Bairro: Ferreira",
+        "cep": "05524-000"
+    },
+    {
+        "ecoponto": "Jardim Jaqueline",
+        "endereco": "Parque Raposo Tavares - Rua Walter Brito Belletti, s/nº - Bairro: Vila Albano",
+        "cep": "05543-040"
+    },
+    {
+        "ecoponto": "Politécnica",
+        "endereco": "Rua Paulino Baptista Conti, nº 2 – Bairro: Jardim Sarah",
+        "cep": "05382-140"
+    },
+    {
+        "ecoponto": "Giovani Gronchi",
+        "endereco": "Avenida Giovani Gronchi, nº 3413 – Bairro: Morumbi",
+        "cep": "05651-002"
+    },
+    {
+        "ecoponto": "Santo Dias",
+        "endereco": "Travessa Rosifloras, nº 301 – Bairro: Conjunto Habitacional Instituto Adventista",
+        "cep": "05868-600"
+    },
+    {
+        "ecoponto": "Parque Fernanda",
+        "endereco": "Avenida Doutor Salvador Rocco, nº 261, defronte Rua Antônio Cânon – Bairro: Parque",
+        "cep": "05888-050"
+    },
+    {
+        "ecoponto": "Olinda",
+        "endereco": "Rua Nelson Brissac, nº 1235, esquina com Avenida Padre Adolfo Kolping – Bairro: Parque Regina –",
+        "cep": "05773-110"
+    },
+    {
+        "ecoponto": "Vila das Belezas",
+        "endereco": "Rua Campo Novo do Sul, nº 500 – Bairro: Vila Andrade",
+        "cep": "05729-100"
+    },
+    {
+        "ecoponto": "Paraisópolis",
+        "endereco": "Rua Irapará, nº 73 – Bairro: Paraíso do Morumbi",
+        "cep": "05706-300"
+    },
+    {
+        "ecoponto": "Cidade Saudável",
+        "endereco": "Rua Ptolomeu, nº 869 – Bairro: Vila Socorro",
+        "cep": "04762-040"
+    },
+    {
+        "ecoponto": "Geraldo Honório",
+        "endereco": "Rua Geraldo Honório da Silva, 280 (altura) - Bairro: Parque Grajaú",
+        "cep": "04843-650"
+    },
+    {
+        "ecoponto": "Parque Peruche",
+        "endereco": "Avenida Engenheiro Caetano Álvares, nº 3142 – Bairro: Parque Peruche",
+        "cep": "02535-008"
+    },
+    {
+        "ecoponto": "Vila Nova Cachoeirinha",
+        "endereco": "Rua Felix Alves Pereira, nº 113 – Bairro: Jardim Centenário",
+        "cep": "02882-030"
+    },
+    {
+        "ecoponto": "Vila Santa Maria",
+        "endereco": "Rua André Bolsena com a Travessa Luiz Sá – Bairro Vila Santista",
+        "cep": "02560-170"
+    },
+    {
+        "ecoponto": "Jardim Antártica",
+        "endereco": "Rua Dom Aquino, nº 103 – Bairro: Jardim Antártica",
+        "cep": "02652-170"
+    },
+    {
+        "ecoponto": "São Leandro",
+        "endereco": "Rua São Leandro, nº 13 – Bairro: Vila Palmeiras",
+        "cep": "02725-010"
+    },
+    {
+        "ecoponto": "Alvarenga",
+        "endereco": "Estrada do Alvarenga, nº 2475 – Bairro: Balneário Mar Paulista",
+        "cep": "04467-000"
+    },
+    {
+        "ecoponto": "Cupecê",
+        "endereco": "Rua Anália Maria de Jesus, nº 130 – Trav. Av. Cupecê – Bairro: Jardim Itacolomi",
+        "cep": "04385-110"
+    },
+    {
+        "ecoponto": "Nascer do Sol",
+        "endereco": "Rua Nascer do Sol, nº 356 – Bairro: Conjunto Habitacional Santa Etelvina II",
+        "cep": "08485-020"
+    },
+    {
+        "ecoponto": "Setor G",
+        "endereco": "Rua Alfonso Asturaro, altura do nº 600 – Bairro: Conjunto Habitacional Barro Branco II",
+        "cep": "08473-591"
+    },
+    {
+        "ecoponto": "Inácio Monteiro",
+        "endereco": "Rua Regresso Feliz, nº 1190 - Bairro: Conjunto Habitacional Inácio Monteiro",
+        "cep": "08472-210"
+    },
+    {
+        "ecoponto": "Jardim São Nicolau",
+        "endereco": "Rua Agreste de Itabaiana, nº 590, esquina com a Rua Eduardo Kyioshi Shimuta – Bairro: Vila União (Zona Leste)",
+        "cep": "03683-000"
+    },
+    {
+        "ecoponto": "Boturussu",
+        "endereco": "Rua Nélio Batista Guimarães, nº 183 – Bairro: Parque Boturussu",
+        "cep": "03802-005"
+    },
+    {
+        "ecoponto": "Bandeirantes",
+        "endereco": "Rua Itaiquara, nº 237 - Bairro: Itaberaba",
+        "cep": "02803-050"
+    },
+    {
+        "ecoponto": "Freguesia do Ó",
+        "endereco": "Rua Sousa Filho, nº 690 – Bairro: Vila União (Zona Norte)",
+        "cep": "02911-135"
+    },
+    {
+        "ecoponto": "Vila Rica",
+        "endereco": "Rua Jorge Mamede da Silva, nº 200 – Bairro: Vila Souza",
+        "cep": "02860-050"
+    },
+    {
+        "ecoponto": "Jardim São Paulo",
+        "endereco": "Rua Utaro Kanai, nº 374 – Bairro: Conjunto Habitacional Juscelino Kubitschek",
+        "cep": "08465-000"
+    },
+    {
+        "ecoponto": "Guaiaponto",
+        "endereco": "Rua da Passagem Funda, nº 250 – Bairro: Vila Santa Cruz (Zona Leste)",
+        "cep": "08411-010"
+    },
+    {
+        "ecoponto": "Lajeado",
+        "endereco": "Rua Isabela, nº405 – Bairro: Jardim Lajeado",
+        "cep": "08411-010"
+    },
+    {
+        "ecoponto": "Padre Nildo do Amaral",
+        "endereco": "Rua Padre Nildo do Amaral Júnior, nº 900 – Bairro: Vila Nova Curuçá",
+        "cep": "08032-650"
+    },
+    {
+        "ecoponto": "Tereza Cristina",
+        "endereco": "Rua Tereza Cristina, nº 10, esquina com Avenida do Estado – Bairro: Vila Monumento",
+        "cep": "01553-000"
+    },
+    {
+        "ecoponto": "Santa Cruz",
+        "endereco": "Rua Santa Cruz, nº 1452 (Baixo do Viaduto Santa Cruz) – Bairro: Vila Mariana",
+        "cep": "04122-000"
+    },
+    {
+        "ecoponto": "Vila das Mercês",
+        "endereco": "Rua Italva, nº 86 – Bairro: Saúde",
+        "cep": "04294-030"
+    },
+    {
+        "ecoponto": "Comandante Taylor",
+        "endereco": "Rua Comandante Taylor, nº 690 (Baixo do Viaduto Comandante Taylor) – Bairro: Ipiranga",
+        "cep": "04218-000"
+    },
+    {
+        "ecoponto": "Moreira",
+        "endereco": "Rua João Batista de Godói, nº 1164 – Bairro: Jardim das Oliveiras",
+        "cep": "08111-430"
+    },
+    {
+        "ecoponto": "Mãe Preta",
+        "endereco": "Avenida Dama Entre Verdes, nº 21, - Bairro: Vila Curuçá",
+        "cep": "08030-610"
+    },
+    {
+        "ecoponto": "Pesqueiro",
+        "endereco": "Rua Caiuás, nº 18, esquina com a Avenida Itamerendiba – Bairro: Jardim Ida Guedes",
+        "cep": "08120-580"
+    },
+    {
+        "ecoponto": "Flamingo",
+        "endereco": "Rua Alexandre Dias Nogueira, nº353 – Bairro: Vila Nova Curuçá",
+        "cep": "08031-240"
+    },
+    {
+        "ecoponto": "Itaim Paulista",
+        "endereco": "Rua Barão de Almeida Galeão, altura do nº61 – Bairro: Itaim Paulista",
+        "cep": "08575-210"
+    },
+    {
+        "ecoponto": "Jardim Indaiá",
+        "endereco": "Rua Rossini Pinto, altura do nº 214 – Bairro: Jardim Indaiá",
+        "cep": "08143-030"
+    },
+    {
+        "ecoponto": "Parque Guarani",
+        "endereco": "Rua Manuel Alves da Rocha, nº 584 – Bairro: Parque Guarani",
+        "cep": "08235-620"
+    },
+    {
+        "ecoponto": "Oswaldo Valle Cordeiro",
+        "endereco": "Av. Osvaldo Valle Cordeiro, nº 405 – Bairro: Jardim Brasília (Zona Leste)",
+        "cep": "03584-000"
+    },
+    {
+        "ecoponto": "Cidade Lider",
+        "endereco": "Rua Charles Manguin, nº 20- Bairro: Jardim Marília",
+        "cep": "03579-150"
+    },
+    {
+        "ecoponto": "Parque do Carmo",
+        "endereco": "Rua Machado Nunes, nº 95 – Bairro: Jardim Nossa Senhora do Carmo",
+        "cep": "08275-310"
+    },
+    {
+        "ecoponto": "Corinthians",
+        "endereco": "Rua Ana Perena, nº 155 – Bairro: Conjunto Residencial José Bonifácio",
+        "cep": "08253-230"
+    },
+    {
+        "ecoponto": "Caldeirão",
+        "endereco": "Rua Major Vitorino de Souza Rocha, altura do nº148 – Bairro: Vila Santa Teresinha",
+        "cep": "08247-080"
+    },
+    {
+        "ecoponto": "Imigrantes",
+        "endereco": "Rua Opixe - Bairro: Vila Guarani (Zona Sul)",
+        "cep": "04312-080"
+    },
+    {
+        "ecoponto": "Jabaquara",
+        "endereco": "Rua Jupatis, nº140 – Bairro: Vila Mira",
+        "cep": "04377-200"
+    },
+    {
+        "ecoponto": "Anselmo Machado",
+        "endereco": "Avenida Paulo Lincoln do Valle Pontin, altura do nº 550 – Bairro: Jaçanã",
+        "cep": "02273-011"
+    },
+    {
+        "ecoponto": "Silvio Bittencourt",
+        "endereco": "Rua Maria Amália Lopes Azevedo, nº 4008 – Bairro: Vila Albertina",
+        "cep": "02350-003"
+    },
+    {
+        "ecoponto": "Viaduto Antártica",
+        "endereco": "Rua Robert Bosch (Baixos Viaduto Antártica) – Bairro: Parque Industrial Tomas Edson",
+        "cep": "01141-010"
+    },
+    {
+        "ecoponto": "Vila Jaguara",
+        "endereco": "Rua Agrestina, nº 189 – Bairro: Vila Jaguara",
+        "cep": "05117-100"
+    },
+    {
+        "ecoponto": "Piraporinha",
+        "endereco": "Rua João de Abreu, nº326 – Bairro: Jardim Tupã",
+        "cep": "04904-000"
+    },
+    {
+        "ecoponto": "São Luis",
+        "endereco": "Rua Pedro Armani, nº 252 – Bairro: Jardim Letícia",
+        "cep": "05820-220"
+    },
+    {
+        "ecoponto": "Bresser",
+        "endereco": "Pça. Giuseppe Cesari, nº 54 (Baixo do Viaduto Bresser) – Bairro: Brás",
+        "cep": "03053-000"
+    },
+    {
+        "ecoponto": "Tatuapé",
+        "endereco": "Avenida Salim Farah Maluf, nº 179, Praça Tito Lívio Ferreira (Central de Triagem) – Bairro: Tatuapé",
+        "cep": "03076-000"
+    },
+    {
+        "ecoponto": "Brás",
+        "endereco": "Avenida Presidente Wilson, nº 1 (Baixo Viaduto Professor Alberto Mesquita de Carvalho) – Bairro: Mooca",
+        "cep": "03107-000"
+    },
+    {
+        "ecoponto": "Mooca",
+        "endereco": "Avenida Pires do Rio, nº 600 (Baixo Viaduto Bresser) – Bairro: Belenzinho",
+        "cep": "03163-010"
+    },
+    {
+        "ecoponto": "Pari",
+        "endereco": "Avenida Carlos de Campos, nº 996 (defronte), esquina com Avenida Presidente Castelo Branco – Bairro: Pari",
+        "cep": "03028-001"
+    },
+    {
+        "ecoponto": "Belém",
+        "endereco": "Rua Belarmino Matos, nº 26 (baixos do Viaduto Guadalajara) – Bairro: Belenzinho",
+        "cep": "03062-030"
+    },
+    {
+        "ecoponto": "Vila Luisa",
+        "endereco": "Praça Dante Maron, nº 92 (Baixos Viaduto Engenheiro Alberto Badra) – Bairro: Guaiúna",
+        "cep": "03631-230"
+    },
+    {
+        "ecoponto": "Água Rasa",
+        "endereco": "Av. Salim Farah Maluf, nº 1500 – Bairro: Quarta Parada",
+        "cep": "03304-090"
+    },
+    {
+        "ecoponto": "Mendes Caldeira",
+        "endereco": "Rua Monsenhor Andrade, nº 865 – Bairro: Brás",
+        "cep": "03008-000"
+    },
+    {
+        "ecoponto": "Mooca ll",
+        "endereco": "Rua Pantojo, nº 1.147 – Bairro: Vila Regente Feijó",
+        "cep": "03343-000"
+    },
+    {
+        "ecoponto": "Penha I",
+        "endereco": "Rua Doutor. Heládio, nº 104 – Bairro: Vila Esperança",
+        "cep": "03650-020"
+    },
+    {
+        "ecoponto": "Tiquatira",
+        "endereco": "Rua Amorim Diniz, nº 415 – Bairro: Jardim Jaú (Zona Leste)",
+        "cep": "03730-040"
+    },
+    {
+        "ecoponto": "Gamelinha",
+        "endereco": "Rua Morfeu, nº 25, esquina com Avenida Edgar dos Santos – Bairro: Jardim Santo Antônio",
+        "cep": "03554-000"
+    },
+    {
+        "ecoponto": "Vila Matilde",
+        "endereco": "Rua Mateus de Siqueira, nº 375, com Praça Leonildes Ramos Saigo - Bairro: Jardim Triana",
+        "cep": "03554-000"
+    },
+    {
+        "ecoponto": "Cangaíba",
+        "endereco": "Rua Luciano Nogueira, altura do nº 241 – Bairro: Cangaíba",
+        "cep": "03721-080"
+    },
+    {
+        "ecoponto": "Franquinho",
+        "endereco": "Rua Praia de Mucuripe, nº 685 – Bairro: Jardim Artur Alvim",
+        "cep": "03687-100"
+    },
+    {
+        "ecoponto": "Dalila",
+        "endereco": "Rua Inacio da Costa nº 740, esquina com a Avenida Aricanduva – Bairro: Vila Dalila",
+        "cep": "03520-030"
+    },
+    {
+        "ecoponto": "COHAB Artur Alvim",
+        "endereco": "Avenida. Padre Estanislau de Campos nº 56 – Bairro: Conjunto Habitacional Padre Manoel da Nóbrega",
+        "cep": "03590-060"
+    },
+    {
+        "ecoponto": "Vila Talarico",
+        "endereco": "Avenida Bernardino Brito Fonseca de Carvalho, nº 1.050 – Bairro: Vila Talarico",
+        "cep": "03535-000"
+    },
+    {
+        "ecoponto": "Recanto dos Humildes",
+        "endereco": "Rua Sales Gomes, nº 415 – Bairro: Vila Perus",
+        "cep": "05211-200"
+    },
+    {
+        "ecoponto": "Jardim Santa Fé",
+        "endereco": "Rua Salvador Albano nº156 – Bairro: Jardim Santa Fé (Zona Oeste)",
+        "cep": "05271-090"
+    },
+    {
+        "ecoponto": "Pinheiros",
+        "endereco": "Praça do Cancioneiro, nº 15 (Baixos da Ponte Engenheiro Ary Torres) – Bairro: Cidade Monções",
+        "cep": "04571-200"
+    },
+    {
+        "ecoponto": "Vila Madalena",
+        "endereco": "Rua Girassol, nº 15, esquina Rua Luís Murat – Bairro: Vila Madalena",
+        "cep": "05433-000"
+    },
+    {
+        "ecoponto": "Alto de Pinheiros",
+        "endereco": "Praça Arcipreste Anselmo de Oliveira – Bairro: Alto de Pinheiros",
+        "cep": "05463-080"
+    },
+    {
+        "ecoponto": "Cônego José Salomon",
+        "endereco": "Avenida. Cônego José Salomon, nº 861 – Bairro: Vila Portugal",
+        "cep": "02918-170"
+    },
+    {
+        "ecoponto": "Vigário Godói",
+        "endereco": "Rua Vigário Godói, nº 480 – Bairro: Vila Zat",
+        "cep": "02976-080"
+    },
+    {
+        "ecoponto": "Voith",
+        "endereco": "Avenida Atílio Brugnoli, nº 489 – Bairro: Parque Nações Unidas",
+        "cep": "02996-010"
+    },
+    {
+        "ecoponto": "Alexios Jafet",
+        "endereco": "Rua Alexios Jafet, nº 233 – Bairro: Jardim Ipanema (Zona Oeste)",
+        "cep": "05187-010"
+    },
+    {
+        "ecoponto": "Tucuruvi",
+        "endereco": "Rua Eduardo Vicente Nasser, nº 519 – Bairro: Barro Branco (Zona Norte)",
+        "cep": "02344-050"
+    },
+    {
+        "ecoponto": "Santana",
+        "endereco": "Avenida Zaki Narchi, nº375 – Bairro: Carandiru",
+        "cep": "02029-000"
+    },
+    {
+        "ecoponto": "Alceu Maynard de Araújo",
+        "endereco": "Avenida Professor Alceu Maynard de Araújo, nº 330 - ao lado da Central de Triagem – Bairro Vila Cruzeiro",
+        "cep": "04728-110"
+    },
+    {
+        "ecoponto": "Vicente Rao",
+        "endereco": "Avenida Vicente Rao, nº 308 sentido Diadema (Baixo do Viaduto José Diniz) – Bairro: Jardim Petrópolis",
+        "cep": "04636-000"
+    },
+    {
+        "ecoponto": "Pedro Bueno",
+        "endereco": "Rua João de Lery, altura do nº 503 – Bairro: Parque Jabaquara",
+        "cep": "04356-030"
+    },
+    {
+        "ecoponto": "Vitor Manzini",
+        "endereco": "Praça Dom Francisco de Sousa, nº 635 – Bairro: Santo Amaro",
+        "cep": "04745-050"
+    },
+    {
+        "ecoponto": "Cipoaba",
+        "endereco": "Rua Padre Luis de Siqueira, nº 947, com Avenida Rodolfo Pirani - Bairro: Jardim Rodolfo Pirani",
+        "cep": "08310-260"
+    },
+    {
+        "ecoponto": "Iguatemi",
+        "endereco": "Rua Francisco de Melo Palheta, nº1548 – Bairro: Parque Boa Esperança",
+        "cep": "08341-235"
+    },
+    {
+        "ecoponto": "Montalvania",
+        "endereco": "Rua Montalvania nº 195 – Bairro: Jardim São Cristóvão",
+        "cep": "03930-095"
+    },
+    {
+        "ecoponto": "Lima Bonfante",
+        "endereco": "Rua Capitão-mor Lázaro da Costa, nº 251 – Bairro: Jardim São Francisco",
+        "cep": "08390-260"
+    },
+    {
+        "ecoponto": "Imperador",
+        "endereco": "Avenida. Ribeirão Jacu, nº 201 (Baixo do Viaduto Jacu Pêssego) – Bairro: Jardim das Camélias",
+        "cep": "08050-420"
+    },
+    {
+        "ecoponto": "Carlito Maia",
+        "endereco": "Rua Domingos Fernandes Nobre, nº 109 – Bairro: Vila Itaim",
+        "cep": "08190-300"
+    },
+    {
+        "ecoponto": "Pedro Nunes",
+        "endereco": "Rua da Polka, nº 100 – Bairro: Jardim Pedro José Nunes",
+        "cep": "08061-540"
+    },
+    {
+        "ecoponto": "Itaqueruna",
+        "endereco": "Rua Domitila d'Abril, nº 88 - Bairro: Cidade Nova São Miguel",
+        "cep": "08042-550"
+    },
+    {
+        "ecoponto": "Varre Vila",
+        "endereco": "Rua Primeiro de Maio, defronte nº 106 – Bairro: União de Vila Nova",
+        "cep": "08072-050"
+    },
+    {
+        "ecoponto": "Vitória Popular",
+        "endereco": "Rua El Rey nº 508 – Bairro: Jardim São Carlos (Zona Leste)",
+        "cep": "08062-520"
+    },
+    {
+        "ecoponto": "Jardim Helena",
+        "endereco": "Rua Cosme dos Santos, nº 110 – Bairro: Jardim Helena",
+        "cep": "08090-753"
+    },
+    {
+        "ecoponto": "Jardim Romano",
+        "endereco": "Rua Duarte Martins Mourão, nº 400 – Bairro: Jardim Santa Margarida",
+        "cep": "08191-250"
+    },
+    {
+        "ecoponto": "Jardim Lapena",
+        "endereco": "Rua Rafael Zimbard, altura do nº78 – Bairro Jardim Nair",
+        "cep": "08071-130"
+    },
+    {
+        "ecoponto": "Sapopemba",
+        "endereco": "Rua Francesco Usper, nº 550 – Bairro Conjunto Habitacional Teotonio Vilela",
+        "cep": "03928-235"
+    },
+    {
+        "ecoponto": "Vila Cardoso Franco",
+        "endereco": "Rua dos Vorás, nº 25 – Bairro: Conjunto Residencial Sitio Oratório",
+        "cep": "03978-310"
+    },
+    {
+        "ecoponto": "Reynaldo José",
+        "endereco": "Rua Silvestro Silvestre, nº 400 – Bairro: Jardim Ângela (Zona Leste)",
+        "cep": "03985-000"
+    },
+    {
+        "ecoponto": "Joaquim Catuna",
+        "endereco": "Rua Luca Conforti, nº210 - Bairro Fazenda da Juta",
+        "cep": "03977-417"
+    },
+    {
+        "ecoponto": "Glicério",
+        "endereco": "Praça Ministro Francisco Sá Carneiro, nº 6 (Baixos do Viaduto Glicério, acesso pela Avenida do Estado, 4434) - Bairro: Liberdade",
+        "cep": "01517-100"
+    },
+    {
+        "ecoponto": "Liberdade",
+        "endereco": "Rua Jaceguai, nº 67, esquina com a Avenida Liberdade – Bairro: Bela Vista",
+        "cep": "01315-010"
+    },
+    {
+        "ecoponto": "Armênia",
+        "endereco": "Rua General Carmona, nº 156 – Bairro: Luz",
+        "cep": "01102-030"
+    },
+    {
+        "ecoponto": "Cambuci",
+        "endereco": "Avenida Dom Pedro I, nº 38 – Bairro: Vila Monumento",
+        "cep": "01552-001"
+    },
+    {
+        "ecoponto": "General Flores (Fora de Operação - Temporariamente)",
+        "endereco": "Rua General Flores, nº 10 – Bairro: Bom Retiro",
+        "cep": "01129-010"
+    },
+    {
+        "ecoponto": "Bela Vista",
+        "endereco": "Rua Quatorze de Julho, nº 59 – Bairro: Bela Vista",
+        "cep": "01324-040"
+    },
+    {
+        "ecoponto": "Vila Guilherme",
+        "endereco": "Rua José Bernardo Pinto, nº 1480 – Bairro: Vila Guilherme",
+        "cep": "02055-001"
+    },
+    {
+        "ecoponto": "Vila Sabrina",
+        "endereco": "Avenida do Poeta, nº 931 – Bairro: Jardim Julieta",
+        "cep": "02161-160"
+    },
+    {
+        "ecoponto": "Vila Maria",
+        "endereco": "Rua Curuçá, nº 1.700 - Bairro: Jardim Andaraí",
+        "cep": "02168-150"
+    },
+    {
+        "ecoponto": "Vila Mariana",
+        "endereco": "Rua Mauricio Francisco Klabin, nº37 – Bairro: Vila Mariana",
+        "cep": "04120-020"
+    },
+    {
+        "ecoponto": "Saioa",
+        "endereco": "Rua Mary Baida Salem, nº01 – Bairro: Vila Firmiano Pinto",
+        "cep": "04124-210"
+    },
+    {
+        "ecoponto": "Rubem Berta",
+        "endereco": "Avenida Rubem Berta, 1100 (baixo do Viaduto Onze de Junho) - Bairro:",
+        "cep": "04014-010"
+    },
+    {
+        "ecoponto": "Anhaia Mello",
+        "endereco": "Rua da Prece, nº 296 – Bairro: Vila Prudente",
+        "cep": "03156-210"
+    },
+    {
+        "ecoponto": "São Lucas",
+        "endereco": "Rua Florêncio Sanches, nº 307 – Bairro: Parque Residencial Oratorio",
+        "cep": "03266-120"
+    },
+    {
+        "ecoponto": "Vila Industrial",
+        "endereco": "Rua Lisa Ansorge, altura do nº 645 – Bairro: Jardim Guairacá",
+        "cep": "03244-060"
+    }
+]
