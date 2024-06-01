@@ -1,0 +1,36 @@
+Arquivo,Variável,Nome da variável,Descrição da variável,Fonte,Tipo,Tamanho,Sigilo
+DEINFO_ECOPONTOS,ID,Identificador,Número de idenficação do ecoponto,SMDU,TEXTO,2,0
+DEINFO_ECOPONTOS,NOME,Nome ,Nome do ecoponto,SES/AMLURB,TEXTO,40,0
+DEINFO_ECOPONTOS,ENDERECO,Endereço ,Endereço do ecoponto,SES/AMLURB,TEXTO,40,0
+DEINFO_ECOPONTOS,OBSERVACAO,Observação,Ponto de referência quando houver,SES/AMLURB,TEXTO,40,0
+DEINFO_ECOPONTOS,SUBPREF,Subprefeitura,Subprefeitura responsável pelo ecoponto,SES/AMLURB,TEXTO,30,0
+DEINFO_ECOPONTOS,SITUACAO,Situação ,Situação do ecoponto - em operação,SES/AMLURB,TEXTO,20,0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

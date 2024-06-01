@@ -133,19 +133,19 @@
 
         <section id="pontos-de-reciclagem">
             <img src="img-recycling/plant.png" alt="">
-
+    
             <form id="Formulario">
                 <label id="encontre">Encontre pontos de reciclagem</label>
-
+    
                 <label>Busque agora lugares que recebem recicláveis perto de você.</label>
-
-                <input type="text" id="busque-input" name="radius" placeholder=  "Digite um endereço, cidade ou bairro">
-
+    
+                <input type="text" id="busque-input" name="radius" placeholder="Digite um endereço, cidade ou bairro">
+    
                 <input type="button" value="Buscar" id="botao">
             </form>
         </section>
-    </main>
-    <footer>
+    
+        <footer>
             <a href="https://github.com/2506roma" target="_blank">
                 <li>
                     <img src="Emoji-redes/code.png" alt="" class="Emojis">
@@ -157,17 +157,14 @@
             <div id="footer">
                 <h2 id="name">Romário D.</h2>
             </div>
-    </footer>
-    <script src="verdetechrecycle.js"></script>
-    <script src="assets/scripts/app.js"></script>
-    <script>
-        document.getElementById("botao").addEventListener("click", function() {
-            // Obter o valor do endereço digitado pelo usuário
-            var endereco = document.getElementById("busque-input").value;
-            
-            // Redirecionar para a página do mapa com o endereço como parâmetro de consulta na URL
-            window.location.href = "mapa.html" + encodeURIComponent(endereco);
-        });
-    </script>
-</body>
-</html>
+        </footer>
+        <script src="verdetechrecycle.js"></script>
+        <script src="assets/scripts/app.js"></script>
+        <script>
+            document.getElementById("botao").addEventListener("click", function() {
+                var endereco = document.getElementById("busque-input").value;
+                window.location.href = "mapa.html?endereco=" + encodeURIComponent(endereco);
+            });
+        </script>
+    </body>
+    </html>

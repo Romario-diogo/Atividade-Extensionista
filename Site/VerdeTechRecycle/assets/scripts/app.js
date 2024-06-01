@@ -1,39 +1,26 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('../data/dados_coleta.json')
+    fetch('assets/scripts/data/dados_coleta.json')
         .then(response => response.json())
         .then(data => {
             window.dadosColeta = data;
         });
 });
 
-function buscarPontos() {
-    const enderecoInput = document.getElementById('endereco').value.toLowerCase();
-    const resultsContainer = document.getElementById('results');
-    resultsContainer.innerHTML = '';
+function calcularDistancia(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Raio da Terra em km
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = 
+        0.5 - Math.cos(dLat) / 2 + 
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
+        (1 - Math.cos(dLon)) / 2;
 
-    if (!enderecoInput) {
-        alert('Por favor, digite um endereço ou município.');
-        return;
-    }
+    return R * 2 * Math.asin(Math.sqrt(a));
+}
 
-    const resultados = window.dadosColeta.filter(item => 
-        item.endereco.toLowerCase().includes(enderecoInput) ||
-        item.ecoponto.toLowerCase().includes(enderecoInput) ||
-        item.cep.toLowerCase().includes(enderecoInput)
-    );
-
-    if (resultados.length > 0) {
-        resultados.forEach(item => {
-            const div = document.createElement('div');
-            div.classList.add('result-item');
-            div.innerHTML = `
-                <p><strong>Ecoponto:</strong> ${item.ecoponto}</p>
-                <p><strong>Endereço:</strong> ${item.endereco}</p>
-                <p><strong>CEP:</strong> ${item.cep}</p>
-            `;
-            resultsContainer.appendChild(div);
-        });
-    } else {
-        resultsContainer.innerHTML = '<p>Nenhum ponto de descarte encontrado.</p>';
-    }
+function buscarPontos(lat, lon) {
+    return window.dadosColeta.filter(item => {
+        const distancia = calcularDistancia(lat, lon, item.latitude, item.longitude);
+        return distancia <= 20;
+    });
 }
