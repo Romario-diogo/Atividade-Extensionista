@@ -1,4 +1,28 @@
-@media (min-width:374px) and (max-width:1014px) {
+@media (min-width:1515px) and (max-width:1592px) {
+    #lista-top > li{
+        font-size: 33px;
+    }
+
+}
+@media (min-width:1399px) and (max-width:1514px) {
+    #lista-top > li{
+        font-size: 30px;
+    }
+
+}
+@media (min-width:1207px) and (max-width:1398px) {
+    #lista-top > li{
+        font-size: 25px;
+    }
+
+}
+@media (min-width:1091px) and (max-width:1206px) {
+    #lista-top > li{
+        font-size: 22px;
+    }
+
+}
+@media (min-width:350px) and (max-width:1091px) {
     html, body {
         overflow-x: hidden;
     }
@@ -10,7 +34,6 @@
     #lista-top , li > a{
         text-decoration: none;
         justify-items: none;
-    
     }
     .nav-link{
         transition: 0.7s ease;
@@ -19,39 +42,93 @@
         color: aqua;
         text-decoration: none;
     }
-    #recycling > li:first-child {
-        margin-left: 0;
-        
-    }
-    #recycling > li:last-child {
-        margin-right:0;
+
+    @media (min-width:350px) and (max-width: 981px) {
+        #lixo{
+            width: auto;
+            grid-template-columns: repeat(2, 300px);
+            grid-template-rows: repeat(3, 200px);
+            gap: 0.5rem;
+        }
+        @media (min-width:350px) and (max-width: 870px) {
+            li > img{
+                width: 75px;
+                height: 75px;
+            }
+
+        }
+        @media (min-width: 350px) and (max-width:836px) {
+            #conteudo01, #conteudo2{
+                width: 600px;
+                height: auto;
+            }
+            #conteudo01{
+                height: 740px;   
+            }
+            #img-top{
+                align-self: center;
+            }
+            #conteudo2{
+                gap: 1rem;
+            }
+            @media (min-width:320px) and (max-width:450px){
+                #escrita{
+                    font-size: 35px;
+                }
+                #barra-top{
+                    height: 46px;
+                }
+                #capa{
+                    background-position: center left;
+                }
+                #capa::after{
+                    height: 599px;
+                    margin-top: 46px;
+                }
+                #lista-top > li{
+                    font-size: 27px;
+                }
+                #lista-top , li > a{
+                    top: 40px;
+                    left: -30px;
+                    text-align: left;
+                }
+                #lixo{
+                    grid-template-columns: repeat(1, 300px);
+                    grid-template-rows: repeat(2, 200px);
+                }
+                #conteudo01{
+                    display: inline-block;
+                    width: 340px;
+                    height: auto;   
+                    margin-left: 7px;
+                }
+                .fonte-p{
+                    font-size: 22px;
+                }
+                #section-recycling{
+                    height: 290px;
+                }
+                #recycling > li{
+                    margin: auto;
+                    margin-left: 17px;
+                }
+                #conteudo2{
+                    display: inline-block;
+                    width: 340px;
+                    height: auto;
+                    margin: 15px;   
+                    margin-left: 7px;
+
+                }
+                #list-cont2{
+                    font-size: 20px;
+                }
+                #busque-input{
+                    width: 240px;
+                }
+            }
+        }
     }
 }
 
-@media (min-width:921px) and (max-width: 1014px) {
-    #lixo{
-        width: auto;
-    }
-    #recycling > li{
-        width: 90px;
-    }
-
-}
-
-@media (min-width:862px) and (max-width:920px) {
-    #recycling > li{
-        margin-right: 30px;
-    }
-    
-    
-    #lixo{
-        align-items: center;
-        justify-items: center;
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 1rem;
-    }
-    
-}

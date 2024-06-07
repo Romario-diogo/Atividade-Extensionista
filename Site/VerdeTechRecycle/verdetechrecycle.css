@@ -24,6 +24,7 @@ body{
     background-position: center center;
     background-size: cover;
     height: 600px;
+    width: auto;
     margin-bottom: 10px;
 }
 #capa::after{
@@ -32,7 +33,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 600px;
+    height:600px;
     margin-top: 70px;
     background: rgba(0, 0, 0, 0.5) ;
 }
@@ -48,6 +49,7 @@ body{
     color: white;
 }
 /* Escrita / Capa */
+ /* ESCRITA TOP */
 #escrita{
     position: absolute;
     top: 5px;
@@ -62,7 +64,7 @@ body{
 #lista-top > li{
     display: inline-block;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 35px;
     padding-bottom: 9px;
 }
 #lista-top > li:last-child{
@@ -76,10 +78,14 @@ body{
     text-align: right;
     top: 90px;
     text-decoration: none;
+   
+
 }
 #lista-top , li > a:hover{
-    color: #aaf611;
+    color: aqua;
     text-decoration: underline;
+    transition: color 0.5s ease-in-out, text-decoration 0.5s ease-in-out;
+
 } 
 /* Animação */
 
