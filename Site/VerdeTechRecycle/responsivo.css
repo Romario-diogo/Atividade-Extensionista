@@ -25,6 +25,8 @@
 @media (min-width:350px) and (max-width:1091px) {
     html, body {
         overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
     #lista-top > li{
         display: block;
@@ -101,7 +103,9 @@
                     display: inline-block;
                     width: 340px;
                     height: auto;   
-                    margin-left: 7px;
+                }
+                main{
+                    text-align: center;
                 }
                 .fonte-p{
                     font-size: 22px;
@@ -118,8 +122,6 @@
                     width: 340px;
                     height: auto;
                     margin: 15px;   
-                    margin-left: 7px;
-
                 }
                 #list-cont2{
                     font-size: 20px;
